@@ -19,7 +19,7 @@ from DecisionApprovalService import (
 logging.basicConfig(level=logging.DEBUG)
 API_HOST = "127.0.0.1"
 API_NAME = "Morgage Loan Application"
-API_PORT = 8004
+API_PORT = 8000
 API_DESCRIPTION = f"A simple API for {API_NAME}"
 
 app = FastAPI(title=API_NAME, description=API_DESCRIPTION)
@@ -35,7 +35,7 @@ def read_root():
 
 
 @app.post("/loan-demand")
-def loanDemand(request: LoanRequest):
+def loanDemand(request: LoanRequest) -> ResponseModel:
     try:
         text_mining_response = requests.post(
             f"http://{text_mining_host}:{text_mining_port}/extract",
@@ -57,7 +57,9 @@ def loanDemand(request: LoanRequest):
         return decision_approval_response.json()
     except Exception as e:
         logging.error(f"Error during service call: {str(e)}")
-        return f"Erreur lors de l'appel au service : {str(e)}"
+        raise HTTPException(
+            status_code=500, detail=f"Error during service call: {str(e)}"
+        )
 
 
 if __name__ == "__main__":
