@@ -1,0 +1,281 @@
+Nom du Client: John Doe
+Adresse: 123 Rue de la Liberté, 75001 Paris, France
+Email: john.doe@email.com
+Numéro de Téléphone: +33 123 456 789
+Montant du Prêt Demandé: 200000 EUR
+Durée du Prêt: 20 ans
+Description de la Propriété: Maison à deux étages avec jardin, située dans un quartier résidentiel calme.
+Revenu Mensuel: 5000 EUR
+Dépenses Mensuelles: 3000 EUR
+
+Nom du Client: Jane Smith
+Adresse: 456 Avenue des Champs-Élysées, 75008 Paris, France
+Email: jane.smith@email.com
+Numéro de Téléphone: +33 987 654 321
+Montant du Prêt Demandé: 250000 EUR
+Durée du Prêt: 25 ans
+Description de la Propriété: Appartement moderne avec vue sur la Tour Eiffel.
+Revenu Mensuel: 6000 EUR
+Dépenses Mensuelles: 3500 EUR
+
+Nom du Client: Alice Martin
+Adresse: 789 Boulevard Saint-Germain, 75006 Paris, France
+Email: alice.martin@email.com
+Numéro de Téléphone: +33 234 567 890
+Montant du Prêt Demandé: 300000 EUR
+Durée du Prêt: 30 ans
+Description de la Propriété: Maison de ville avec terrasse et garage.
+Revenu Mensuel: 7000 EUR
+Dépenses Mensuelles: 4000 EUR
+
+Nom du Client: Bob Johnson
+Adresse: 321 Rue de Rivoli, 75004 Paris, France
+Email: bob.johnson@email.com
+Numéro de Téléphone: +33 345 678 901
+Montant du Prêt Demandé: 150000 EUR
+Durée du Prêt: 15 ans
+Description de la Propriété: Studio cosy dans le Marais.
+Revenu Mensuel: 4500 EUR
+Dépenses Mensuelles: 2500 EUR
+
+Nom du Client: Charlie Brown
+Adresse: 654 Rue de la Paix, 75002 Paris, France
+Email: charlie.brown@email.com
+Numéro de Téléphone: +33 456 789 012
+Montant du Prêt Demandé: 220000 EUR
+Durée du Prêt: 22 ans
+Description de la Propriété: Appartement spacieux avec balcon.
+Revenu Mensuel: 5500 EUR
+Dépenses Mensuelles: 3200 EUR
+
+Nom du Client: David Wilson
+Adresse: 987 Rue du Faubourg Saint-Honoré, 75008 Paris, France
+Email: david.wilson@email.com
+Numéro de Téléphone: +33 567 890 123
+Montant du Prêt Demandé: 280000 EUR
+Durée du Prêt: 28 ans
+Description de la Propriété: Maison avec piscine et jardin.
+Revenu Mensuel: 8000 EUR
+Dépenses Mensuelles: 4500 EUR
+
+Nom du Client: Emma Davis
+Adresse: 123 Rue de la Convention, 75015 Paris, France
+Email: emma.davis@email.com
+Numéro de Téléphone: +33 678 901 234
+Montant du Prêt Demandé: 180000 EUR
+Durée du Prêt: 18 ans
+Description de la Propriété: Appartement lumineux avec vue sur la Seine.
+Revenu Mensuel: 5200 EUR
+Dépenses Mensuelles: 3100 EUR
+
+Nom du Client: Fiona Clark
+Adresse: 456 Rue de la Pompe, 75016 Paris, France
+Email: fiona.clark@email.com
+Numéro de Téléphone: +33 789 012 345
+Montant du Prêt Demandé: 260000 EUR
+Durée du Prêt: 26 ans
+Description de la Propriété: Maison avec vue sur le parc.
+Revenu Mensuel: 6200 EUR
+Dépenses Mensuelles: 3700 EUR
+
+Nom du Client: George Harris
+Adresse: 789 Rue de la Roquette, 75011 Paris, France
+Email: george.harris@email.com
+Numéro de Téléphone: +33 890 123 456
+Montant du Prêt Demandé: 240000 EUR
+Durée du Prêt: 24 ans
+Description de la Propriété: Appartement avec terrasse et vue dégagée.
+Revenu Mensuel: 5800 EUR
+Dépenses Mensuelles: 3400 EUR
+
+Nom du Client: Hannah Lewis
+Adresse: 321 Rue de Belleville, 75020 Paris, France
+Email: hannah.lewis@email.com
+Numéro de Téléphone: +33 901 234 567
+Montant du Prêt Demandé: 210000 EUR
+Durée du Prêt: 21 ans
+Description de la Propriété: Maison avec jardin et garage.
+Revenu Mensuel: 5600 EUR
+Dépenses Mensuelles: 3300 EUR
+
+Nom du Client: Ian Walker
+Adresse: 654 Rue de la République, 75011 Paris, France
+Email: ian.walker@email.com
+Numéro de Téléphone: +33 012 345 678
+Montant du Prêt Demandé: 230000 EUR
+Durée du Prêt: 23 ans
+Description de la Propriété: Appartement avec vue sur le canal.
+Revenu Mensuel: 5900 EUR
+Dépenses Mensuelles: 3500 EUR
+
+Nom du Client: Jack White
+Adresse: 987 Rue de la Gaité, 75014 Paris, France
+Email: jack.white@email.com
+Numéro de Téléphone: +33 123 456 789
+Montant du Prêt Demandé: 270000 EUR
+Durée du Prêt: 27 ans
+Description de la Propriété: Maison avec terrasse et jardin.
+Revenu Mensuel: 7500 EUR
+Dépenses Mensuelles: 4200 EUR
+
+Nom du Client: Karen Young
+Adresse: 123 Rue de la Santé, 75013 Paris, France
+Email: karen.young@email.com
+Numéro de Téléphone: +33 234 567 890
+Montant du Prêt Demandé: 190000 EUR
+Durée du Prêt: 19 ans
+Description de la Propriété: Appartement avec balcon et vue sur la ville.
+Revenu Mensuel: 5300 EUR
+Dépenses Mensuelles: 3200 EUR
+
+Nom du Client: Liam King
+Adresse: 456 Rue de la Victoire, 75009 Paris, France
+Email: liam.king@email.com
+Numéro de Téléphone: +33 345 678 901
+Montant du Prêt Demandé: 250000 EUR
+Durée du Prêt: 25 ans
+Description de la Propriété: Maison avec piscine et vue sur la ville.
+Revenu Mensuel: 6800 EUR
+Dépenses Mensuelles: 3900 EUR
+
+Nom du Client: Mia Scott
+Adresse: 789 Rue de la Convention, 75015 Paris, France
+Email: mia.scott@email.com
+Numéro de Téléphone: +33 456 789 012
+Montant du Prêt Demandé: 220000 EUR
+Durée du Prêt: 22 ans
+Description de la Propriété: Appartement avec vue sur la Seine.
+Revenu Mensuel: 5700 EUR
+Dépenses Mensuelles: 3400 EUR
+
+Nom du Client: Noah Green
+Adresse: 321 Rue de la Paix, 75002 Paris, France
+Email: noah.green@email.com
+Numéro de Téléphone: +33 567 890 123
+Montant du Prêt Demandé: 240000 EUR
+Durée du Prêt: 24 ans
+Description de la Propriété: Maison avec jardin et garage.
+Revenu Mensuel: 6000 EUR
+Dépenses Mensuelles: 3600 EUR
+
+Nom du Client: Olivia Brown
+Adresse: 654 Rue de la Pompe, 75016 Paris, France
+Email: olivia.brown@email.com
+Numéro de Téléphone: +33 678 901 234
+Montant du Prêt Demandé: 260000 EUR
+Durée du Prêt: 26 ans
+Description de la Propriété: Appartement avec vue sur le parc.
+Revenu Mensuel: 6200 EUR
+Dépenses Mensuelles: 3700 EUR
+
+Nom du Client: Paul Adams
+Adresse: 987 Rue de la Roquette, 75011 Paris, France
+Email: paul.adams@email.com
+Numéro de Téléphone: +33 789 012 345
+Montant du Prêt Demandé: 280000 EUR
+Durée du Prêt: 28 ans
+Description de la Propriété: Maison avec terrasse et vue dégagée.
+Revenu Mensuel: 8000 EUR
+Dépenses Mensuelles: 4500 EUR
+
+Nom du Client: Quinn Baker
+Adresse: 123 Rue de Belleville, 75020 Paris, France
+Email: quinn.baker@email.com
+Numéro de Téléphone: +33 890 123 456
+Montant du Prêt Demandé: 210000 EUR
+Durée du Prêt: 21 ans
+Description de la Propriété: Maison avec jardin et garage.
+Revenu Mensuel: 5600 EUR
+Dépenses Mensuelles: 3300 EUR
+
+Nom du Client: Ryan Carter
+Adresse: 456 Rue de la République, 75011 Paris, France
+Email: ryan.carter@email.com
+Numéro de Téléphone: +33 901 234 567
+Montant du Prêt Demandé: 230000 EUR
+Durée du Prêt: 23 ans
+Description de la Propriété: Appartement avec vue sur le canal.
+Revenu Mensuel: 5900 EUR
+Dépenses Mensuelles: 3500 EUR
+
+Nom du Client: Sophia Davis
+Adresse: 789 Rue de la Gaité, 75014 Paris, France
+Email: sophia.davis@email.com
+Numéro de Téléphone: +33 012 345 678
+Montant du Prêt Demandé: 270000 EUR
+Durée du Prêt: 27 ans
+Description de la Propriété: Maison avec terrasse et jardin.
+Revenu Mensuel: 7500 EUR
+Dépenses Mensuelles: 4200 EUR
+
+Nom du Client: Thomas Evans
+Adresse: 123 Rue de la Santé, 75013 Paris, France
+Email: thomas.evans@email.com
+Numéro de Téléphone: +33 123 456 789
+Montant du Prêt Demandé: 190000 EUR
+Durée du Prêt: 19 ans
+Description de la Propriété: Appartement avec balcon et vue sur la ville.
+Revenu Mensuel: 5300 EUR
+Dépenses Mensuelles: 3200 EUR
+
+Nom du Client: Uma Foster
+Adresse: 456 Rue de la Victoire, 75009 Paris, France
+Email: uma.foster@email.com
+Numéro de Téléphone: +33 234 567 890
+Montant du Prêt Demandé: 250000 EUR
+Durée du Prêt: 25 ans
+Description de la Propriété: Maison avec piscine et vue sur la ville.
+Revenu Mensuel: 6800 EUR
+Dépenses Mensuelles: 3900 EUR
+
+Nom du Client: Victor Garcia
+Adresse: 789 Rue de la Convention, 75015 Paris, France
+Email: victor.garcia@email.com
+Numéro de Téléphone: +33 345 678 901
+Montant du Prêt Demandé: 220000 EUR
+Durée du Prêt: 22 ans
+Description de la Propriété: Appartement avec vue sur la Seine.
+Revenu Mensuel: 5700 EUR
+Dépenses Mensuelles: 3400 EUR
+
+Nom du Client: Wendy Hill
+Adresse: 321 Rue de la Paix, 75002 Paris, France
+Email: wendy.hill@email.com
+Numéro de Téléphone: +33 456 789 012
+Montant du Prêt Demandé: 240000 EUR
+Durée du Prêt: 24 ans
+Description de la Propriété: Maison avec jardin et garage.
+Revenu Mensuel: 6000 EUR
+Dépenses Mensuelles: 3600 EUR
+
+Nom du Client: Xander Johnson
+Adresse: 654 Rue de la Pompe, 75016 Paris, France
+Email: xander.johnson@email.com
+Numéro de Téléphone: +33 567 890 123
+Montant du Prêt Demandé: 260000 EUR
+Durée du Prêt: 26 ans
+Description de la Propriété: Appartement avec vue sur le parc.
+Revenu Mensuel: 6200 EUR
+Dépenses Mensuelles: 3700 EUR
+
+Nom du Client: Yara Kim
+Adresse: 987 Rue de la Roquette, 75011 Paris, France
+Email: yara.kim@email.com
+Numéro de Téléphone: +33 678 901 234
+Montant du Prêt Demandé: 280000 EUR
+Durée du Prêt: 28 ans
+Description de la Propriété: Maison avec terrasse et vue dégagée.
+Revenu Mensuel: 8000 EUR
+Dépenses Mensuelles: 4500 EUR
+
+Nom du Client: Zoe Lee
+Adresse: 123 Rue de Belleville, 75020 Paris, France
+Email: zoe.lee@email.com
+Numéro de Téléphone: +33 789 012 345
+Montant du Prêt Demandé: 210000 EUR
+Durée du Prêt: 21 ans
+Description de la Propriété: Maison avec jardin et garage.
+Revenu Mensuel: 5600 EUR
+Dépenses Mensuelles: 3300 EUR, 
+
+dans

@@ -1,0 +1,102 @@
+{
+  "John Doe": {
+    "paiements_retard": 3,
+    "montant_credit": 15000,
+    "faillite": false
+  },
+  "Jane Smith": {
+    "paiements_retard": 1,
+    "montant_credit": 20000,
+    "faillite": false
+  },
+  "Alice Martin": {
+    "paiements_retard": 0,
+    "montant_credit": 5000,
+    "faillite": false
+  },
+  "Bob Brown": {
+    "paiements_retard": 5,
+    "montant_credit": 30000,
+    "faillite": true
+  },
+  "Charlie Davis": {
+    "paiements_retard": 2,
+    "montant_credit": 12000,
+    "faillite": false
+  },
+  "Diana Evans": {
+    "paiements_retard": 4,
+    "montant_credit": 25000,
+    "faillite": true
+  },
+  "Frank Green": {
+    "paiements_retard": 0,
+    "montant_credit": 8000,
+    "faillite": false
+  },
+  "Grace Harris": {
+    "paiements_retard": 3,
+    "montant_credit": 18000,
+    "faillite": false
+  },
+  "Henry Jackson": {
+    "paiements_retard": 1,
+    "montant_credit": 22000,
+    "faillite": false
+  },
+  "Ivy King": {
+    "paiements_retard": 2,
+    "montant_credit": 14000,
+    "faillite": false
+  },
+  "Jack Lee": {
+    "paiements_retard": 4,
+    "montant_credit": 27000,
+    "faillite": true
+  },
+  "Karen Martinez": {
+    "paiements_retard": 0,
+    "montant_credit": 6000,
+    "faillite": false
+  },
+  "Larry Nelson": {
+    "paiements_retard": 5,
+    "montant_credit": 32000,
+    "faillite": true
+  },
+  "Mona Owens": {
+    "paiements_retard": 3,
+    "montant_credit": 16000,
+    "faillite": false
+  },
+  "Nina Perez": {
+    "paiements_retard": 1,
+    "montant_credit": 21000,
+    "faillite": false
+  },
+  "Oscar Quinn": {
+    "paiements_retard": 2,
+    "montant_credit": 13000,
+    "faillite": false
+  },
+  "Paul Roberts": {
+    "paiements_retard": 4,
+    "montant_credit": 26000,
+    "faillite": true
+  },
+  "Quincy Scott": {
+    "paiements_retard": 0,
+    "montant_credit": 7000,
+    "faillite": false
+  },
+  "Rachel Turner": {
+    "paiements_retard": 3,
+    "montant_credit": 17000,
+    "faillite": false
+  },
+  "Steve Underwood": {
+    "paiements_retard": 1,
+    "montant_credit": 23000,
+    "faillite": false
+  }
+}

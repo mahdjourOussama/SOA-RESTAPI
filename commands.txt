@@ -1,0 +1,20 @@
+-----------------------------### run production ###--------------------
+clear; python .\watchdogService.py
+clear; python .\ServiceComposer.py
+clear; python .\DecisionApprovalService.py
+clear; python .\ProperityEvaluationService.py
+clear; python .\SolvapilityVerificationService.py
+clear; python .\TextMiningService.py
+streamlit run .\WatchdogService.py
+-----------------------------------------------------------------------
+
+
+-----------------------------### run Dev ###---------------------------
+clear; fastapi dev  .\TextMiningService.py
+clear; fastapi dev  .\ServiceComposer.py
+clear; fastapi dev  .\DecisionApprovalService.py
+clear; fastapi dev  .\ProperityEvaluationService.py
+clear; fastapi dev  .\SolvapilityVerificationService.py
+clear; fastapi dev  .\TextMiningService.py
+streamlit run .\WatchdogService.py
+-----------------------------------------------------------------------
