@@ -105,8 +105,8 @@ def solvencyVerif(LoanInformation: InformationsModel) -> InformationsModel:
 
         return LoanInformation
 
-    except json.JSONDecodeError as e:
-        logging.error(f"JSON conversion error: {e}")
+    except Exception as e:
+        logging.error(f"error: {e}")
         raise HTTPException(status_code=500, detail=f"Erreur de conversion JSON : {e}")
 
 
