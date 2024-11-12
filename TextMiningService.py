@@ -5,6 +5,7 @@ from models import InformationsModel
 
 logging.basicConfig(level=logging.DEBUG)
 
+API_HOST = "127.0.0.1"
 API_NAME = "Client Information Extraction Service"
 API_PORT = 8000
 API_DESCRIPTION = f"A simple API for {API_NAME}"
@@ -72,4 +73,4 @@ def extraire_informations(texte: str) -> InformationsModel:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, port=API_PORT)
+    uvicorn.run(app, host=API_HOST, port=API_PORT)
