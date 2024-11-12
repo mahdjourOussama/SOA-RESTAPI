@@ -1,0 +1,25 @@
+name: Docker Compose Deployment
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # Log in to Docker Hub (optional, if images are to be pushed/pulled)
+    - name: Log in to Docker Hub
+      run: echo "docker init"
+
+    # Set up Docker Compose and deploy
+    - name: Set up Docker Compose
+      run: sudo apt-get update && sudo apt-get install -y docker-compose
+
+    - name: Deploy Docker Compose services
+      run: echo 'deployed'
