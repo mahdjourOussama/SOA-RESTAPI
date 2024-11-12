@@ -1,13 +1,13 @@
 import logging
 import re
 from fastapi import FastAPI
-from models import InformationsModel
+from models import InformationsModel, LoanRequest
 
 logging.basicConfig(level=logging.DEBUG)
 
 API_HOST = "127.0.0.1"
 API_NAME = "Client Information Extraction Service"
-API_PORT = 8000
+API_PORT = 8004
 API_DESCRIPTION = f"A simple API for {API_NAME}"
 
 app = FastAPI(title=API_NAME, description=API_DESCRIPTION)
@@ -22,13 +22,15 @@ def read_root():
     }
 
 
-@app.get("/extract")
-def extraire_informations(texte: str) -> InformationsModel:
+@app.post("/extract")
+def extraire_informations(request: LoanRequest) -> InformationsModel:
     """
     Fonction pour extraire les informations du texte donné
     :param texte: texte contenant les informations
     :return: InformationsModel
     """
+    logging.info("Informations extraites :", request.text)
+
     # Dictionnaire pour stocker les informations extraites
     informations = {}
     # Liste des clés à extraire
@@ -47,12 +49,11 @@ def extraire_informations(texte: str) -> InformationsModel:
     # Utilisation d'expressions régulières pour extraire chaque information
     for key in keys:
         pattern = rf"{key}:\s*(.*?)\s*(?=\b(?:{'|'.join(keys)})|$)"
-        match = re.search(pattern, texte, re.DOTALL)
+        match = re.search(pattern, request.text, re.DOTALL)
         if match:
             informations[key] = match.group(1).strip()
 
     # Affichage pour débogage
-    logging.debug("Informations extraites :", informations)
 
     # Retourne les informations en JSON
     informationObject = InformationsModel(

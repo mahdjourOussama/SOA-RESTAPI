@@ -11,8 +11,8 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 80 available to the world outside the container
-EXPOSE 8004
+EXPOSE 8000
 
 
 # Run the application
-CMD ["python", "TextMining.py"]
+CMD ["python", "ServiceComposer.py"]

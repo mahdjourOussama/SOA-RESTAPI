@@ -19,3 +19,7 @@ class InformationsModel(BaseModel):
 class ResponseModel(BaseModel):
     decision: str
     description: str
+
+
+class LoanRequest(BaseModel):
+    text: str
