@@ -14,3 +14,8 @@ class InformationsModel(BaseModel):
     client_name: str
     credit_score: Optional[float] = None
     properity_value: Optional[float] = None
+
+
+class ResponseModel(BaseModel):
+    decision: str
+    description: str
