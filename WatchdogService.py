@@ -4,7 +4,6 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import requests
 from ServiceComposer import API_HOST, API_PORT
-import streamlit as st
 
 
 # Fonction pour interagir avec le service SOAP
@@ -17,9 +16,10 @@ def clientFunction(message):
         )
         results = response.json()
         # Affiche et enregistre la réponse du service
-        print(f"response {results}")
+        print("-" * 25, "Response", "-" * 25)
         for key, value in results.items():
-            st.success(f"{key}: {value}")
+            print(f"{key}: {value}")
+        print("-" * 50)
         with open("log.txt", "a") as log_file:
             log_file.write(f"Response for message '{message}': {results}\n")
 
@@ -34,9 +34,9 @@ def process_file(file_path):
         # Lire le contenu du fichier
         with open(file_path, "r", encoding="utf-8") as file:
             content = file.read()
+            print("-" * 25, "File content", "-" * 25)
             print(f"File content: {content}")
-            for line in content.split("\n"):
-                st.write(line)
+            print("-" * 50)
             # Appeler la fonction clientFunction avec le contenu du fichier
             clientFunction(content)
 
@@ -65,32 +65,6 @@ class MyHandler(FileSystemEventHandler):
 folder_to_watch = "data/"
 # Ensure the directory exists
 os.makedirs(folder_to_watch, exist_ok=True)
-
-
-# Function to save the uploaded file
-def save_uploaded_file(uploaded_file):
-    file_path = os.path.join(folder_to_watch, uploaded_file.name)
-    with open(file_path, "wb") as f:
-        f.write(uploaded_file.getbuffer())
-    return file_path
-
-
-# web application
-st.title("Loan Processing App")
-st.write("This is a simple loan processing app built by Oussama MAHDJOUR-Sarra BRAHEM.")
-
-
-# Upload file
-# Upload file
-uploaded_file = st.file_uploader("Choose a .txt file", type=["txt"])
-
-if uploaded_file is not None:
-    # Save the uploaded file
-    file_path = save_uploaded_file(uploaded_file)
-    st.success(f"File saved successfully at {file_path}")
-    process_file(file_path)
-
-# Display the file content and client response if available
 
 
 observer = Observer()

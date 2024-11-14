@@ -276,6 +276,5 @@ Montant du Prêt Demandé: 210000 EUR
 Durée du Prêt: 21 ans
 Description de la Propriété: Maison avec jardin et garage.
 Revenu Mensuel: 5600 EUR
-Dépenses Mensuelles: 3300 EUR, 
+Dépenses Mensuelles: 3300 EUR 
 
-dans
