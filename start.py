@@ -9,6 +9,7 @@ services = [
     "ServiceComposer.py",
     "SolvapilityVerificationService.py",
     "TextMiningService.py",
+    # "app.py",
 ]
 
 processes = []

@@ -1,5 +1,6 @@
 import os
 import re
+import time
 
 # Directory to save client files
 output_dir = "data/"
@@ -50,8 +51,9 @@ def process_file(input_file):
             client_info = parse_client_data(client_data)
             save_client_file(client_info)
             print(f"Saved file for {client_info.get('Nom du Client')}.")
+        time.sleep(0.2)  # Wait for 100ms between processing clients
 
 
 # Run the script on your input file
-input_file = "data/clients.txt"  # Replace with your actual file name
+input_file = "test_data.txt"  # Replace with your actual file name
 process_file(input_file)
