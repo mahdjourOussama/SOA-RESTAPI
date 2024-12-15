@@ -1,26 +1,43 @@
 import logging
 import requests
 from fastapi import FastAPI, HTTPException
-from models import ResponseModel, LoanRequest
-from TextMiningService import API_HOST as text_mining_host, API_PORT as text_mining_port
-from SolvapilityVerificationService import (
-    API_HOST as solvability_check_host,
-    API_PORT as solvability_check_port,
-)
-from ProperityEvaluationService import (
-    API_HOST as properity_evaluation_host,
-    API_PORT as properity_evaluation_port,
-)
-from DecisionApprovalService import (
-    API_HOST as decision_approval_host,
-    API_PORT as decision_approval_port,
-)
+
+from pydantic import BaseModel
+from typing import Optional
+
+
+class InformationsModel(BaseModel):
+    address: str
+    email: str
+    phone_number: str
+    loan_amount: str
+    loan_duration: str
+    property_description: str
+    monthly_income: str
+    monthly_expenses: str
+    client_name: str
+    credit_score: Optional[float] = None
+    properity_value: Optional[float] = None
+
+
+class ResponseModel(BaseModel):
+    decision: str
+    description: str
+
+
+class LoanRequest(BaseModel):
+    text: str
+
 
 logging.basicConfig(level=logging.DEBUG)
 API_HOST = "127.0.0.1"
 API_NAME = "Morgage Loan Application"
 API_PORT = 8000
 API_DESCRIPTION = f"A simple API for {API_NAME}"
+text_mining_port = 8004
+solvability_check_port = 8001
+properity_evaluation_port = 8002
+decision_approval_port = 8003
 
 app = FastAPI(title=API_NAME, description=API_DESCRIPTION)
 
@@ -38,20 +55,20 @@ def read_root():
 def loanDemand(request: LoanRequest) -> ResponseModel:
     try:
         text_mining_response = requests.post(
-            f"http://{text_mining_host}:{text_mining_port}/extract",
+            f"http://{API_HOST}:{text_mining_port}/extract",
             json={"text": request.text},
         )
 
         solvability_check_response = requests.post(
-            f"http://{solvability_check_host}:{solvability_check_port}/verify-credit-score",
+            f"http://{API_HOST}:{solvability_check_port}/verify-credit-score",
             json=text_mining_response.json(),
         )
         properity_evaluation_response = requests.post(
-            f"http://{properity_evaluation_host}:{properity_evaluation_port}/properity-evaluation",
+            f"http://{API_HOST}:{properity_evaluation_port}/properity-evaluation",
             json=solvability_check_response.json(),
         )
         decision_approval_response = requests.post(
-            f"http://{decision_approval_host}:{decision_approval_port}/loan-decision",
+            f"http://{API_HOST}:{decision_approval_port}/loan-decision",
             json=properity_evaluation_response.json(),
         )
         return decision_approval_response.json()

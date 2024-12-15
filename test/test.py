@@ -55,5 +55,5 @@ def process_file(input_file):
 
 
 # Run the script on your input file
-input_file = "test_data.txt"  # Replace with your actual file name
+input_file = "test/data.txt"  # Replace with your actual file name
 process_file(input_file)

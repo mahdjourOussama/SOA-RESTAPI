@@ -3,12 +3,12 @@ import signal
 import sys
 
 services = [
-    "WatchdogService.py",
-    "DecisionApprovalService.py",
-    "ProperityEvaluationService.py",
-    "ServiceComposer.py",
-    "SolvapilityVerificationService.py",
-    "TextMiningService.py",
+    "services/watchdog/main.py",
+    "services/decisionApproval/main.py",
+    "services/properityEvaluation/main.py",
+    "services/serviceComposer/main.py",
+    "services/solvapilityVerification/main.py",
+    "services/textMining/main.py",
     # "app.py",
 ]
 

@@ -1,7 +1,9 @@
 import streamlit as st
 import os
 import requests
-from ServiceComposer import API_HOST, API_PORT
+
+API_HOST = "127.0.0.1"
+API_PORT = 8000
 
 
 # Fonction pour interagir avec le service SOAP

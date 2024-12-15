@@ -3,19 +3,18 @@ import os
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import requests
-from ServiceComposer import API_HOST, API_PORT
+
+API_HOST = "127.0.0.1"
+API_PORT = 8000
 
 
-# Fonction pour interagir avec le service SOAP
 def clientFunction(message):
     try:
-        # Créez un client SOAP pour appeler le service LoanDemand
         response = requests.post(
             f"http://{API_HOST}:{API_PORT}/loan-demand",
             json={"text": message},
         )
         results = response.json()
-        # Affiche et enregistre la réponse du service
         print("-" * 25, "Response", "-" * 25)
         for key, value in results.items():
             print(f"{key}: {value}")
