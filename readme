@@ -21,9 +21,9 @@ Here is the folder and file structure of the project:
 │   ├── solvabilityVerification/   # Creditworthiness verification service
 │   ├── properityEvaluation/         # Property evaluation service
 │   └── decisionApproval/           # Final decision service
-│   └── watchdog/           # service that watch for changes in data dir
-│   └── serviceComposer/           # service that orchastrate all the other services
-│   └── application/           # web interface built with streamlit to enable file upload
+│   └── watchdog/           # service that watches for changes in data dir
+│   └── serviceComposer/           # service that orchestrates all the other services
+│   └── application/           # web interface built with Streamlit to enable file upload
 ├── tests/                   # Unit and integration test scripts
 ├── start.py                 # Entry point for starting the services
 ├── requirements.txt         # Dependencies for execution
@@ -133,4 +133,4 @@ python test/test.py
 ## 📋 **Contributors**
 
 - **Student Name**: Oussama MAHDJOUR
-- **University**: University of Paris-Saclay, Master in Computer science Datascale
+- **University**: University of Paris-Saclay, Master in Computer Science Datascale
