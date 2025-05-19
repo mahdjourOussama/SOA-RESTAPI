@@ -12,7 +12,7 @@ The main objective is to demonstrate the benefits of SOA, such as modularity, co
 
 Here is the folder and file structure of the project:
 
-```
+```plaintext
 ├── .github/                 # CI/CD pipeline configuration (GitHub Actions)
 ├── data/                    # Dummy data for testing and simulation
 ├── db/                      # Simulations of external APIs (e.g., banking services)
